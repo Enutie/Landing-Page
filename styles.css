@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5em;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    color:#F9FAF8;
+    gap: 1em;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5em 2em;
+    font-weight: bold;
+}
+
+.placeholder {
+    background-color: grey;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.top p {
+    font-size: 18px;
+}
+
+.info {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box-wrapper {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+h2 {
+    text-align: center;
+}
+
+.quote-banner {
+    background-color: #e5E7EB;
+    padding: 3em 0;
+}
+
+.quote-text {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-banner p {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 4px;
+    max-width: 70%;
+    margin: 5em auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+    align-self: center;
+    padding: .5em 2em;
+}
+
+.call-to-action p {
+    margin: 0;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex;
+}
+
+li {
+    padding-inline: 1em;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
